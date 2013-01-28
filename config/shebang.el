@@ -1,0 +1,11 @@
+(defun shebang ()
+  (interactive)
+  (save-restriction
+    (widen)
+    (let ((name (buffer-file-name)))
+      (if (and (not (string-match ":" name))
+               (not (string-match "/\\.[^/]+$" name))
+               (equal "#!" (buffer-substring 1 (min 3 (point-max)))))
+          (progn (set-file-modes name (logior (file-modes name) 73))
+                 (message "Wrote %s (chmod +x)" name))))))
+(add-hook 'after-save-hook 'shebang)

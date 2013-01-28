@@ -1,0 +1,51 @@
+sequential-command :emacswiki
+sequential-command-config :emacswiki
+skk :require skk-autoloads
+jaunte :github kawaguchi/jaunte.el
+ffap
+uniquify
+wdired
+whitespace
+
+popwin :github m2ym/popwin-el :require popwin
+direx :github m2ym/direx-el :require direx
+
+eldoc :github emacsmirror/eldoc
+eldoc-extension :github emacsmirror/eldoc-extension
+
+color-moccur :emacswiki
+moccur-edit :emacswiki
+
+;; Git
+git-dwim :emacswiki
+magit :github magit/magit
+
+;; Helm
+migemo :url https://raw.github.com/gist/457761/539882a79ec11bc9b6e1ac417cdafe0e198e245f/migemo.el
+helm :github emacs-helm/helm :require helm-config
+helm-migemo :github emacs-helm/helm-migemo
+
+;; auto-complete
+popup :github auto-complete/popup-el
+auto-complete :github auto-complete/auto-complete :require auto-complete-config
+
+;; Lisp
+paredit :github https://github.com/emacsmirror/paredit
+auto-async-byte-compile :emacswiki
+
+;; Ruby
+ruby-end :github rejeep/ruby-end
+
+;; Rails
+rinari :github eschulte/rinari
+haml-mode :github nex3/haml-mode
+scss-mode :github antonj/scss-mode
+
+;; Markdown
+markdown-mode :url http://jblevins.org/projects/markdown-mode/markdown-mode.el
+
+;; YAML
+yaml-mode :github yoshiki/yaml-mode
+
+;; Coffeescript
+coffee-mode :github defunkt/coffee-mode
