@@ -17,7 +17,6 @@ color-moccur :emacswiki
 moccur-edit :emacswiki
 
 ;; Git
-git-dwim :emacswiki
 magit :github magit/magit
 
 ;; Helm
