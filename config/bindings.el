@@ -26,7 +26,6 @@
 (global-unset-key (kbd "M-<"))     ; beggining-of-buffer use C-a C-a
 (global-unset-key (kbd "M->"))     ; end-of-buffer use C-e C-e
 (global-unset-key (kbd "<f3>"))    ; kmacro-start-macro-or-insert-counter
-(global-unset-key (kbd "<f4>"))    ; kmacro-end-or-call-macro
 (global-unset-key (kbd "<f10>"))   ; menu-bar-open
 
 (find-function-setup-keys)

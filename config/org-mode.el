@@ -10,3 +10,6 @@
         ("j" "Journal" entry (file+datetree "journal.org")
          "* %?\n  %i\n\n  %U\n  %a")))
 (define-key global-map (kbd "C-c c") 'org-capture)
+
+;; http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-ledger.html
+(add-to-list 'org-babel-load-languages '(ledger . t))
