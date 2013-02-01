@@ -40,6 +40,9 @@ rinari :github eschulte/rinari
 haml-mode :github nex3/haml-mode
 scss-mode :github antonj/scss-mode
 
+;; Haskell
+haskell-mode :github haskell/haskell-mode
+
 ;; Markdown
 markdown-mode :url http://jblevins.org/projects/markdown-mode/markdown-mode.el
 
