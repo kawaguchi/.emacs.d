@@ -10,6 +10,8 @@ whitespace
 popwin :github m2ym/popwin-el :require popwin
 direx :github m2ym/direx-el :require direx
 
+undo-tree :github emacsmirror/undo-tree
+
 eldoc :github emacsmirror/eldoc
 eldoc-extension :github emacsmirror/eldoc-extension
 
