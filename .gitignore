@@ -1,4 +1,5 @@
 *.elc
 *.dat
+bookmarks
 config/private.el
 closet/
