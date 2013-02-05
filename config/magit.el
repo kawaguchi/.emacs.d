@@ -13,3 +13,5 @@
 
 (setq vc-handled-backends nil)
 (global-set-key (kbd "C-x g") 'magit-status)
+
+(global-auto-revert-mode 1)
