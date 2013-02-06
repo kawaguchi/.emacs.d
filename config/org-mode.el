@@ -1,3 +1,5 @@
+(add-to-list 'org-modules 'org-habit)
+
 (add-hook 'org-mode-hook
           '(lambda ()
              (local-unset-key (kbd "C-,"))))
@@ -9,6 +11,9 @@
 
 (setq org-agenda-files (list org-default-notes-file))
 (define-key global-map (kbd "C-c a") 'org-agenda)
+
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "|" "DONE(d)" "FAIL(f)" "CANCELED(c)")))
 
 ;; http://orgmode.org/manual/Template-expansion.html#Template-expansion
 (setq org-capture-templates
