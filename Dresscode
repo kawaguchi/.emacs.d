@@ -55,6 +55,3 @@ yaml-mode :github yoshiki/yaml-mode
 
 ;; Coffeescript
 coffee-mode :github defunkt/coffee-mode
-
-;; Ledger http://ledger-cli.org/
-ledger

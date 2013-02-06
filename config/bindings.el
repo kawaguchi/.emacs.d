@@ -1,7 +1,5 @@
 (global-set-key (kbd "C-h") 'delete-backward-char)
-(global-set-key (kbd "C-.") 'next-buffer)
 (global-set-key (kbd "<right>") 'next-buffer)
-(global-set-key (kbd "C-,") 'previous-buffer)
 (global-set-key (kbd "<left>") 'previous-buffer)
 (global-set-key (kbd "C-x l") 'goto-line)
 
@@ -14,8 +12,6 @@
 
 (global-set-key (kbd "C-v") (lambda () (interactive) (scroll-up-command 2)))
 (global-set-key (kbd "M-v") (lambda () (interactive) (scroll-down-command 2)))
-
-(global-set-key (kbd "<f11>") 'ns-toggle-fullscreen)
 
 (define-key read-expression-map (kbd "TAB") 'lisp-complete-symbol)
 
