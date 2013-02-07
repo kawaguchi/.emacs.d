@@ -32,6 +32,8 @@ helm-migemo :github emacs-helm/helm-migemo
 popup :github auto-complete/popup-el
 auto-complete :github auto-complete/auto-complete :require auto-complete-config
 
+mmm-mode :github purcell/mmm-mode :require mmm-auto
+
 ;; Lisp
 paredit :github https://github.com/emacsmirror/paredit
 auto-async-byte-compile :emacswiki
