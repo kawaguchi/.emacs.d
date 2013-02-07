@@ -3,7 +3,9 @@
       skk-henkan-strict-okuri-precedence t
       skk-check-okurigana-on-touroku t
       skk-kakutei-key (kbd "C-\'")
-      skk-egg-like-newline t)
+      skk-egg-like-newline t
+      skk-server-portnum 1178)
+
 (mapc (lambda (command)
         (let ((hook (intern (concat (symbol-name command)
                                     "-hook"))))
