@@ -39,6 +39,7 @@ paredit :github https://github.com/emacsmirror/paredit
 auto-async-byte-compile :emacswiki
 
 ;; Ruby
+rbenv :github senny/rbenv.el
 ruby-end :github rejeep/ruby-end
 
 ;; Rails
