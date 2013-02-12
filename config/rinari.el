@@ -18,3 +18,10 @@
   (interactive)
   (find-file (concat (rinari-root) "Gemfile")))
 (define-key rinari-minor-mode-map (kbd "C-c ; f g") 'rinari-find-gemfile)
+
+(defun bundle-install ()
+  (interactive)
+  (if (and (string-match "/Gemfile$" (buffer-file-name))
+           (y-or-n-p "bundle install?"))
+      (async-shell-command "bundle install")))
+(add-hook 'after-save-hook 'bundle-install)
