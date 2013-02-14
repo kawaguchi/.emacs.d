@@ -19,7 +19,7 @@ $ git clone https://github.com/yourname/.emacs.d.git ~/.emacs.d
 
 ## Usage
 
-1. Write Dresscode
+### Write Dresscode
 
 Gemfile-like DSL.
 
@@ -38,11 +38,11 @@ Options
 - :require
 - :config
 
-2. Write Config file
+### Write Config file
 
-~/.emacs.d/config/_pluginname_.el
+~/.emacs.d/config/pluginname.el
 
-3. Dress Install
+### Dress Install
 
 Install missing plugins.
 
@@ -50,7 +50,7 @@ Install missing plugins.
 M-x dress-install
 ```
 
-4. Dress Up
+### Dress Up
 
 Load all plugins and related config files.
 
@@ -68,6 +68,5 @@ $ git checkout test-new-feature
 
 ## TODO:
 
-1. ELPA
-2. Dress update
-3. Manage installed plugins
+1. Dress update
+2. Manage installed plugins
