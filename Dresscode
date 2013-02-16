@@ -61,3 +61,6 @@ coffee-mode :github defunkt/coffee-mode
 
 ;; Ledger http://ledger-cli.org/
 ledger
+
+;; Evil http://gitorious.org/evil/pages/Home
+evil :git git://gitorious.org/evil/evil.git
