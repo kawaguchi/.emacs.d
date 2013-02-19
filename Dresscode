@@ -65,6 +65,3 @@ ledger
 ;; Calfw
 japanese-holidays :github iquiw/japanese-holidays
 calfw :github kiwanami/emacs-calfw
-
-;; Evil http://gitorious.org/evil/pages/Home
-evil :git git://gitorious.org/evil/evil.git
