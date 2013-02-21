@@ -9,7 +9,6 @@
   (find-file org-default-notes-file))
 (global-set-key (kbd "<f5>") 'open-org-default-notes-file)
 
-(setq org-agenda-files (list org-default-notes-file))
 (define-key global-map (kbd "C-c a") 'org-agenda)
 
 (setq org-todo-keywords
