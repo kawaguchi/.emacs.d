@@ -3,8 +3,7 @@
    (setq exec-path (append (list dir) exec-path)))
 
 (setq initial-frame-alist
-      '((width . 120) (height . 40)
-        (alpha 90 66)))
+      '((width . 120) (height . 40)))
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (set-scroll-bar-mode nil)
