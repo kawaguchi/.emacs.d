@@ -1,5 +1,6 @@
 *.elc
 *.dat
 bookmarks
+tramp
 config/private.el
 closet/
