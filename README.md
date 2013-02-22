@@ -32,7 +32,7 @@ jaunte :github kawaguchi/jaunte.el
 ```
 
 Avaible sources
-:url :emacswiki :git :github
+:url :emacswiki :git :github :gist
 
 Options
 - :require
