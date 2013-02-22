@@ -3,4 +3,5 @@
 (ac-config-default)
 
 (setq ac-use-menu-map t
-      ac-auto-show-menu 0.2)
+      ac-auto-start 3
+      ac-auto-show-menu 0.3)
