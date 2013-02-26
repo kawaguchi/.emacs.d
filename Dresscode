@@ -37,6 +37,7 @@ mmm-mode :github purcell/mmm-mode :require mmm-auto
 ;; Lisp
 paredit :github https://github.com/emacsmirror/paredit
 auto-async-byte-compile :emacswiki
+slime :github emacsmirror/slime :require slime-autoloads
 
 ;; Ruby
 rbenv :github senny/rbenv.el
