@@ -24,7 +24,7 @@ moccur-edit :emacswiki
 magit :github magit/magit
 
 ;; Helm
-migemo :url https://raw.github.com/gist/457761/539882a79ec11bc9b6e1ac417cdafe0e198e245f/migemo.el
+migemo :gist 457761
 helm :github emacs-helm/helm :require helm-config
 helm-migemo :github emacs-helm/helm-migemo
 
