@@ -44,6 +44,7 @@ rbenv :github senny/rbenv.el
 ruby-end :github rejeep/ruby-end
 
 ;; Rails
+findr :emacswiki
 rinari :github eschulte/rinari
 haml-mode :github nex3/haml-mode
 scss-mode :github antonj/scss-mode
