@@ -3,3 +3,4 @@
 (setq migemo-dictionary "/usr/local/share/migemo/euc-jp/migemo-dict")
 (setq migemo-user-dictionary nil)
 (setq migemo-regex-dictionary nil)
+(setq search-whitespace-regexp nil)
