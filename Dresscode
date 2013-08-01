@@ -47,6 +47,7 @@ ruby-end :github rejeep/ruby-end
 findr :emacswiki
 rinari :github eschulte/rinari
 haml-mode :github nex3/haml-mode
+slim-mode :github slim-template/emacs-slim
 scss-mode :github antonj/scss-mode
 
 ;; Haskell
