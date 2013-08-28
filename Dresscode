@@ -50,6 +50,9 @@ haml-mode :github nex3/haml-mode
 slim-mode :github slim-template/emacs-slim
 scss-mode :github antonj/scss-mode
 
+;; JavaScript
+js2-mode :github mooz/js2-mode
+
 ;; Haskell
 haskell-mode :github haskell/haskell-mode
 
