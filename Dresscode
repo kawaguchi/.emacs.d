@@ -20,6 +20,8 @@ eldoc-extension :github emacsmirror/eldoc-extension
 color-moccur :emacswiki
 moccur-edit :emacswiki
 
+keyfreq :github dacap/keyfreq
+
 ;; Git
 magit :github magit/magit
 
