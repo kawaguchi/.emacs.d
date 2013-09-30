@@ -23,6 +23,7 @@ moccur-edit :emacswiki
 keyfreq :github dacap/keyfreq
 
 ;; Git
+git-modes :github magit/git-modes :require git-commit-mode
 magit :github magit/magit
 
 ;; Helm
