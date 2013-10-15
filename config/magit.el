@@ -15,3 +15,5 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 
 (global-auto-revert-mode 1)
+
+(set-variable 'magit-emacsclient-executable "/usr/local/Cellar/emacs/24.3/bin/emacsclient")
