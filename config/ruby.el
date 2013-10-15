@@ -6,6 +6,7 @@
 (add-to-list 'auto-mode-alist '(".gemspec" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Guardfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Capfile" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.cap$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Berksfile" . ruby-mode))
 
 (add-hook 'ruby-mode-hook
