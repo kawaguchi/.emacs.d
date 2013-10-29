@@ -1,6 +1,6 @@
 (add-to-list 'load-path user-emacs-directory)
 
-(require 'dresser)
+(require 'dress)
 (dress-up)
 
 ;; load other config files
