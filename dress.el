@@ -1,7 +1,7 @@
-;;; dresser.el --- Emacs plugin manager
+;;; dress.el --- Emacs plugin manager
 
 ;; Author: Masaya Kawaguchi <masayakawaguchi@gmail.com>
-;; URL: https://github.com/kawaguchi/Emacs-Dressing-Room
+;; URL: https://github.com/kawaguchi/dress
 ;; Version: 0.0.1
 ;; Created: 21 Sep 2012
 
@@ -263,5 +263,5 @@
         (mapc 'message dress-load-errors)
       (message "Dress up completed"))))
 
-(provide 'dresser)
-;;; dresser.el ends here.
+(provide 'dress)
+;;; dress.el ends here.

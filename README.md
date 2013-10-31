@@ -1,4 +1,4 @@
-Emacs Dressing Room
+Dress
 ===================
 
 Bundler-like plugin manager with Git.
@@ -7,13 +7,13 @@ Bundler-like plugin manager with Git.
 
 ```
 $ mv ~/.emacs ~/.emacs.bak && mv ~/.emacs.d ~/.emacs.d.bak
-$ git clone https://github.com/kawaguchi/Emacs-Dressing-Room.git ~/.emacs.d
+$ git clone https://github.com/kawaguchi/dress.git ~/.emacs.d
 ```
 
 ### Manage .emacs.d on Github
 
 ```
-[Fork kawaguchi/Emacs-Dressing-Room as .emacs.d]
+[Fork kawaguchi/dress as .emacs.d]
 $ git clone https://github.com/yourname/.emacs.d.git ~/.emacs.d
 ```
 
