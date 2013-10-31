@@ -14,7 +14,7 @@ undo-tree :github emacsmirror/undo-tree
 
 info+ :emacswiki
 
-eldoc :github emacsmirror/eldoc
+eldoc
 eldoc-extension :github emacsmirror/eldoc-extension
 
 color-moccur :emacswiki
