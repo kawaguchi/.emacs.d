@@ -60,6 +60,9 @@ js2-mode :github mooz/js2-mode
 ;; Haskell
 haskell-mode :github haskell/haskell-mode
 
+;; PHP
+php-mode :github ejmr/php-mode
+
 ;; Markdown
 markdown-mode :url http://jblevins.org/projects/markdown-mode/markdown-mode.el
 
