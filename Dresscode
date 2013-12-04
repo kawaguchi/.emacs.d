@@ -63,9 +63,6 @@ haskell-mode :github haskell/haskell-mode
 ;; PHP
 php-mode :github ejmr/php-mode
 
-;; HTML
-emmet-mode :github smihica/emmet-mode
-
 ;; Markdown
 markdown-mode :url http://jblevins.org/projects/markdown-mode/markdown-mode.el
 
