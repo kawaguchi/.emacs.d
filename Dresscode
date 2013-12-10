@@ -43,6 +43,9 @@ paredit :github emacsmirror/paredit
 auto-async-byte-compile :emacswiki
 slime :github emacsmirror/slime :require slime-autoloads
 
+;; Io
+io-mode :github superbobry/io-mode
+
 ;; Ruby
 rbenv :github senny/rbenv.el
 ruby-end :github rejeep/ruby-end
