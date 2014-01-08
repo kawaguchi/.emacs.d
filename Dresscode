@@ -69,6 +69,9 @@ php-mode :github ejmr/php-mode
 ;; Markdown
 markdown-mode :url http://jblevins.org/projects/markdown-mode/markdown-mode.el
 
+;; HTML
+stag :github kawaguchi/stag.el
+
 ;; YAML
 yaml-mode :github yoshiki/yaml-mode
 
