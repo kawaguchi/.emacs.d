@@ -2,8 +2,7 @@
    (setenv "PATH" (concat dir path-separator (getenv "PATH")))
    (setq exec-path (append (list dir) exec-path)))
 
-(setq initial-frame-alist
-      '((width . 120) (height . 40)))
+(setq initial-frame-alist '((fullscreen . maximized)))
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (set-scroll-bar-mode nil)
