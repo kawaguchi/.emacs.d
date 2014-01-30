@@ -8,8 +8,7 @@ wdired
 whitespace
 
 popwin :github m2ym/popwin-el
-direx :github m2ym/direx-el
-
+direx-project :github m2ym/direx-el
 undo-tree :github emacsmirror/undo-tree
 
 info+ :emacswiki
