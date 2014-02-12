@@ -19,6 +19,9 @@ eldoc-extension :github emacsmirror/eldoc-extension
 color-moccur :emacswiki
 moccur-edit :emacswiki
 
+ag :github Wilfred/ag.el
+wgrep :github mhayashi1120/Emacs-wgrep
+
 keyfreq :github dacap/keyfreq
 
 ;; Git
