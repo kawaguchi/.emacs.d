@@ -31,7 +31,7 @@ helm :github helm-emacs/helm :require helm-config
 jaunte :github kawaguchi/jaunte.el
 ```
 
-Avaible sources
+Available sources
 :url :emacswiki :git :github :gist
 
 Options
