@@ -36,7 +36,6 @@ helm-migemo :github emacs-helm/helm-migemo
 ;; auto-complete
 popup :github auto-complete/popup-el
 auto-complete :github auto-complete/auto-complete :require auto-complete-config
-ac-source-ispell :github kawaguchi/ac-source-ispell
 
 mmm-mode :github purcell/mmm-mode :require mmm-auto
 
